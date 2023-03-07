@@ -7,7 +7,6 @@ public class Main {
         Random rand = new Random();
         int number = rand.nextInt(100);
         Scanner input = new Scanner(System.in);
-        System.out.println(number);
         int right = 0;
         int selected;
         boolean isWrong = false;
